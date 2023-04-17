@@ -1,7 +1,3 @@
 hojas
 libros
-revistas
-lapiz
-goma
-cartuchera
-carpeta
+revista
