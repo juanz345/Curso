@@ -1,0 +1,38 @@
+/*
+font-family: 'Wix Madefor Display', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
+*/
+
+body{
+    background-color: #595959;
+}
+
+footer{
+    background-color: #595959;
+    color: white;
+}
+
+h1,
+h2{
+    font-family: 'Alfa slab one', cursive;
+}
+
+.hero{
+    background:url(../img/turismo-de-pesca1.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: white;
+    align-items: center;
+
+}
+
+form{
+    align-items: center;
+}
+
+.col{
+    text-align: center;
+    align-items: center;
+}
