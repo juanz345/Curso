@@ -4,22 +4,29 @@ font-family: 'Wix Madefor Display', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
-body{
+body {
     background-color: #595959;
 }
 
-footer{
-    background-color: #595959;
-    color: white;
+footer {
+    background-color: black;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    display: flex;
 }
 
 h1,
-h2{
+h2 {
     font-family: 'Alfa slab one', cursive;
 }
 
-.hero{
-    background:url(../img/turismo-de-pesca1.jpg) no-repeat;
+.hero {
+    background: url(../img/turismo-de-pesca1.jpg) no-repeat;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
@@ -28,11 +35,58 @@ h2{
 
 }
 
-form{
+form {
     align-items: center;
 }
 
-.col{
-    text-align: center;
+.h-100 {
     align-items: center;
+    text-align: center;
+    width: 350px;
+    margin-left: 305px;
+}
+
+.col {
+    margin-top: 30px;
+}
+
+h2 {
+    color: black;
+}
+
+.buttons{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    margin-top: 30px;
+}
+
+.buttons a:hover{
+    transform: scale(1.2);
+}
+
+h3{
+    color: white;
+}
+
+h6{
+    height: 10%;
+    text-align: center;
+    height: 10%;
+    color: white;
+    margin-top: 60px;
 }
