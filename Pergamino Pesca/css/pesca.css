@@ -36,7 +36,7 @@ h2 {
 }
 
 form {
-    align-items: center;
+    align-items: end;
 }
 
 .h-100 {
@@ -89,4 +89,8 @@ h6{
     height: 10%;
     color: white;
     margin-top: 60px;
+}
+
+nav-item{
+    align-items: center;
 }
